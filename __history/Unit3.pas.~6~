@@ -1,0 +1,49 @@
+unit Unit3;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.jpeg, Vcl.ExtCtrls,
+  Vcl.StdCtrls, Vcl.Grids;
+
+type
+  TForm3 = class(TForm)
+    Image1: TImage;
+    Image2: TImage;
+    Button1: TButton;
+    Grid: TStringGrid;
+    procedure Image2Click(Sender: TObject);
+    procedure Image1Click(Sender: TObject);
+    procedure GridClick(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm3.Image1Click(Sender: TObject);
+begin
+  button1.Visible := true
+end;
+
+procedure TForm3.Image2Click(Sender: TObject);
+begin
+  image1.Visible := true;
+  image2.Visible := false;
+
+end;
+
+procedure TForm3.GridClick(Sender: TObject);
+begin
+    Grid.Cells[0, 1] :=  'Banane';
+end;
+
+end.

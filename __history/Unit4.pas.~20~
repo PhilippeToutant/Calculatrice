@@ -1,0 +1,65 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
+  Vcl.ExtCtrls,Math;
+
+type
+  TForm4 = class(TForm)
+    Image1: TImage;
+    EditC: TEdit;
+    EditA: TEdit;
+    EditB: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm4.Button1Click(Sender: TObject);
+var
+NombreA : integer ;
+NombreB : integer ;
+NombreC : integer ;
+begin
+NombreA := StrToInt(EditA.Text);
+NombreB := StrToInt(EditB.Text);
+NombreC := StrToInt(EditC.Text);
+    begin
+     if NombreA = 0 then
+        NombreA := Sqrt(Power(NombreC,2) - Power(NombreB,2));
+        Text := FormatFloat('0.#####', NombreA);
+        label5.Caption := 'A = ' + Text;
+    end;
+    begin
+     if NombreB = 0 then
+        NombreB := Sqrt (Power(NombreC,2) - Power(NombreA,2));
+        Text := FormatFloat('0.#####', NombreB);
+        label5.Caption := 'B = ' + Text;
+     end;
+     begin
+     if NombreC = 0 then
+        NombreC := Sqrt (Power(NombreA,2) + Power(NombreB,2));
+        Text := FormatFloat('0.#####', NombreC);
+        label5.Caption := 'C = ' + Text;
+       end;
+end;
+
+end.

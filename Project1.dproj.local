@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.346,=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.396,C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Calculatrice\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.414,=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Calculatrice\Unit4.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.235,=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Calculatrice\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.656,=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.108,=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Calculatrice\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.795,C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Unit1.dfm=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Calculatrice\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.795,C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Calculatrice\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.876,=C:\Users\Philippe\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
